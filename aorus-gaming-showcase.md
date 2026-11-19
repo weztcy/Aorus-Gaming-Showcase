@@ -10,285 +10,298 @@
 ```typescript
 {
   "id": "aorus-gaming-showcase",
-  "code": "PRO-21 // WEB-01",
+  "code": "PRO-01 // WEB-01",
   "title": "Aorus Gaming Showcase",
   "category": "web-development",
   "categoryLabel": "Web Development",
   "year": "2021",
   "status": "Completed",
   "accentColor": "cyan",
-  "repoUrl": "https://github.com/weztcy/Aorus-Gaming-Showcase",
+  "repoUrl": "https://github.com/weztcy/aorus-gaming-showcase",
   "license": "MIT License",
   "imageUrl": "/images/projects/aorus_gaming_showcase/banner.webp",
   "images": [
     "/images/projects/aorus_gaming_showcase/banner.webp"
   ],
-  "summary": "Interactive gaming hardware catalog and showcase web application highlighting AORUS flagship motherboards, GPUs, laptops, and PC components.",
-  "projectDescription": "A responsive web portal engineered to showcase premium AORUS gaming hardware, featuring rich multimedia integration, multi-page product catalogs, hardware benchmark articles, and an interactive customer product registration system built with pure semantic HTML5, CSS3, and modern vanilla JavaScript.",
-  "architectureSummary": "Decoupled multi-page web architecture combining semantic HTML5 presentation templates, modular CSS3 styling, and client-side JavaScript.",
+  "summary": "A comprehensive AORUS gaming showcase web platform highlighting high-performance hardware, interactive product catalogs, and benchmark insights.",
+  "projectDescription": "An immersive web platform engineered to showcase AORUS premium gaming hardware. Built with semantic HTML5, modern CSS3 styling, and modular JavaScript, it delivers high-fidelity product catalogs, interactive multi-angle galleries, and rich gaming benchmark insights across all screen devices.",
+  "architectureSummary": "Client-side modular component architecture featuring decoupled DOM controllers and responsive layout systems.",
   "techStack": [
     "HTML5",
     "CSS3",
     "JavaScript",
-    "PHP"
+    "PHP",
+    "Live Server"
   ],
   "telemetryMatrix": {
     "projectType": "Frontend Web Application",
-    "targetPlatform": "Cross-Platform Modern Web Browsers",
-    "primaryDomain": "Gaming Hardware & E-Commerce Showcase",
-    "architecturePipeline": "Static Multi-Page Architecture (MPA)",
+    "targetPlatform": "Cross-Browser Web Engines",
+    "primaryDomain": "Gaming Hardware & Tech Media",
+    "architecturePipeline": "Modular Component Presentation",
     "testingAndAudit": "Passed",
     "projectStatus": "Completed",
     "projectYear": "2021"
   },
   "projectInfo": {
-    "projectType": "Interactive Product Showcase",
+    "projectType": "Interactive Gaming Hardware Showcase Web Portal",
     "developmentStatus": "Completed",
     "developmentYear": "2021",
-    "platform": "Web Browser",
+    "platform": "Cross-Browser Responsive Web",
     "projectCategory": "Web Development"
   },
-  "projectBackground": "Conceived as an immersive digital portal for PC enthusiasts, the AORUS Gaming Showcase resolves the fragmentation of hardware specifications by centralizing high-end graphics cards, motherboards, laptops, and DIY guides into a high-performance web experience featuring rich visuals and intuitive product discovery.",
+  "projectBackground": "Engineered in 2021 to provide gaming enthusiasts and PC builders with a unified digital catalog for GIGABYTE AORUS hardware, eliminating fragmented product specs through interactive browsing, high-resolution media galleries, and benchmark editorial insights.",
   "problemStatements": [
     {
       "title": "Fragmented Hardware Specifications",
-      "description": "Enthusiasts struggle to compare complex GPU, motherboard, and cooling hardware metrics across disparate manufacturer datasheets and unorganized web pages.",
+      "description": "Gamers and PC builders struggled to find consolidated, high-detail specifications and visual angles for high-end AORUS gaming components across scattered vendor listings.",
       "issueCode": "ISSUE_01"
     },
     {
-      "title": "Lack of Immersive Product Storytelling",
-      "description": "Conventional e-commerce hardware portals present rigid specification lists without conveying architectural innovations or high-performance gaming aesthetics.",
+      "title": "Lack of Integrated Benchmarks & Guides",
+      "description": "Users had to leave manufacturer product listings to search third-party forums for real-world gaming benchmarks and PC building advice.",
       "issueCode": "ISSUE_02"
     },
     {
-      "title": "Disconnected Educational & Editorial Content",
-      "description": "Hardware benchmark data, architectural guides, and DIY maintenance articles are rarely integrated directly with the respective component catalog views.",
+      "title": "Cumbersome Product Registration Workflow",
+      "description": "Warranty validation processes for newly purchased gaming hardware were often buried in complex multi-step corporate portals.",
       "issueCode": "ISSUE_03"
     }
   ],
   "projectObjectives": [
     {
-      "title": "Centralized Hardware Showcase Portal",
-      "description": "Architect a cohesive multi-page catalog featuring dedicated sections for Motherboards, Graphics Cards, PC Components, and Gaming Laptops.",
+      "title": "Deliver Unified Product Showcase",
+      "description": "Centralize flagship AORUS graphics cards, motherboards, laptops, and cooling components into an elegant, responsive catalog.",
       "targetTag": "TARGET_01"
     },
     {
-      "title": "High-Fidelity Cyberpunk Visual Identity",
-      "description": "Integrate ambient video looping backgrounds, dark-themed glowing micro-interactions, and smooth transitions that reflect competitive gaming culture.",
+      "title": "Integrate Real-Time Insights & Benchmarks",
+      "description": "Provide direct access to editorial benchmark results, DIY assembly guides, and multimedia video showcases in a single experience.",
       "targetTag": "TARGET_02"
     },
     {
-      "title": "Zero-Dependency Interactive Client Utilities",
-      "description": "Implement vanilla JavaScript components including real-time clock synchronization, image carousel sliders, and customer registration forms.",
+      "title": "Streamline Warranty Registration",
+      "description": "Offer an intuitive, accessible product registration form with instant submission verification and clear hardware details.",
       "targetTag": "TARGET_03"
     }
   ],
   "coreFeatures": [
     {
-      "title": "Multi-Tiered Hardware Catalog & Detail Views",
-      "description": "Provides dedicated catalog portals and detailed datasheets for over 20+ flagship components including Z690 motherboards and RTX 30 Series graphics cards.",
-      "badge": "Product Catalog"
+      "title": "Categorized Gaming Hardware Showcase",
+      "description": "Structured product grids for Motherboards (Z690 series), Graphics Cards (RTX 30 series), PC Components (Liquid Coolers, PSUs, SSDs), and Gaming Laptops.",
+      "badge": "Catalog"
     },
     {
-      "title": "Interactive Vanilla JavaScript Image Carousel",
-      "description": "Enables fluid multi-angle hardware inspection with custom DOM-driven carousel controls supporting manual Prev/Next navigation and dynamic display toggling.",
-      "badge": "Interactive UI"
+      "title": "Interactive Multi-Angle Gallery Slider",
+      "description": "Client-side image carousel enabling users to cycle through multi-angle photography of premium components.",
+      "badge": "Gallery"
     },
     {
-      "title": "Live Digital Clock & Synchronized Temporal Display",
-      "description": "Features a customized date and time engine that tracks and formats system time in real time with automated padding and AM/PM cycle calculations.",
-      "badge": "DOM Scripting"
+      "title": "Explore #AORUS Hardware Insights & Benchmarks",
+      "description": "Editorial article hub with real-world Intel 12th-Gen processor benchmarks, DDR5/PCIe 5.0 guides, and creator laptop advice.",
+      "badge": "Editorial"
     },
     {
-      "title": "Technical Benchmark & DIY Knowledge Portal",
-      "description": "Publishes detailed engineering articles covering Intel 12th-Gen Alder Lake processor benchmarks, PCIe 5.0 / DDR5 architectures, and ergonomics guides.",
-      "badge": "Editorial Hub"
+      "title": "Real-Time Digital Clock & Responsive Utilities",
+      "description": "Live ticking clock with date/time rendering and dynamic smooth-scrolling 'Back to Top' navigation button.",
+      "badge": "Utility"
+    },
+    {
+      "title": "Product Warranty Registration Portal",
+      "description": "Dedicated registration interface for logging serial numbers, purchase dates, and regional warranty claims.",
+      "badge": "Warranty"
+    },
+    {
+      "title": "Brand Heritage & Official Store Directory",
+      "description": "Brand narrative detailing AORUS falcon philosophy, customer support FAQ, warranty policies, and official store channels.",
+      "badge": "Support"
     }
   ],
   "interfaceShowcase": [
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image01.webp",
-      "caption": "Interactive landing page featuring looping video backgrounds, digital clock synchronization, and category navigation cards.",
-      "badge": "Home Interface"
+      "caption": "Landing hero section featuring integrated video showcase, real-time digital clock, and quick-access gaming gear category cards.",
+      "badge": "Desktop Hero"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image02.webp",
-      "caption": "Dedicated motherboards catalog displaying GIGABYTE AORUS Z690 models with smooth hover-zoom CSS micro-interactions.",
-      "badge": "Catalog View"
+      "caption": "Z690 motherboard catalog featuring sticky category sidebar navigation, responsive product cards, and quick interaction buttons.",
+      "badge": "Catalog Grid"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image03.webp",
-      "caption": "Graphics card lineup portal showcasing AORUS GeForce RTX 30 Series GPUs in responsive grid layouts with spec links.",
-      "badge": "Product Grid"
+      "caption": "Flagship GeForce RTX 30 Series graphics card grid showcasing retail box art, GPU aesthetics, and interactive card hover animations.",
+      "badge": "GPU Showcase"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image04.webp",
-      "caption": "Product detail interface highlighting RTX 3090 Xtreme Waterforce with a custom JavaScript image carousel and spec tables.",
-      "badge": "Detail Interface"
+      "caption": "GeForce RTX 3090 Xtreme Waterforce detail view with multi-angle image slideshow carousel, core specifications, and warranty info.",
+      "badge": "Detail View"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image05.webp",
-      "caption": "Engineering deep-dive explaining Waterforce liquid cooling architecture, microchannel spacing, and thermal design.",
-      "badge": "Technical Deep-Dive"
+      "caption": "Engineering breakdown highlighting microchannel thermal spacing and advanced Waterforce cooling architecture for high overclocks.",
+      "badge": "Thermal Concept"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image06.webp",
-      "caption": "Hardware benchmark publication analyzing Intel 12th-Gen processor thermals on the AORUS Z690 PRO motherboard.",
-      "badge": "Benchmark Article"
+      "caption": "In-depth editorial benchmark analyzing Intel 12th-Gen Core Alder Lake CPU performance when paired with AORUS Z690 motherboards.",
+      "badge": "Benchmark Review"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image07.webp",
-      "caption": "Explore community hub aggregating DIY PC building walkthroughs, gaming chair buyer guides, and esports tournament news.",
-      "badge": "Community Hub"
+      "caption": "Explore portal featuring curated hardware insight articles, PC builder guides, ergonomic gaming chair tips, and tech news.",
+      "badge": "Explore Articles"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image08.webp",
-      "caption": "Brand identity page presenting the Falcon heritage story, mission statement, and cinematic AORUS New Dawn video media.",
-      "badge": "Brand Portal"
+      "caption": "Brand heritage page presenting AORUS Enter the Falcon philosophy, corporate history, competitive vision, and official videos.",
+      "badge": "Brand Story"
     }
   ],
   "userFlow": {
-    "summary": "Users navigate from the ambient hero landing page into dedicated category catalogs, drill down into granular product hardware datasheets with interactive image carousels, read technical benchmark articles, and register purchased hardware through an integrated registration form.",
+    "summary": "Users navigate through the immersive hero showcase, explore categorized hardware catalogs, examine multi-angle component specifications, read technical benchmarks, and complete direct product registrations via intuitive client-side interactive workflows.",
     "steps": [
       {
         "step": "01",
-        "title": "Portal Entry & Category Selection",
-        "description": "User enters the portal, views real-time temporal status and video highlights, then selects a hardware domain from the navigation menu.",
-        "actorOrNode": "Visitor / Top Navigation"
+        "title": "Explore Hero Showcase",
+        "description": "User lands on the home showcase, experiences the brand video reel, and accesses real-time clock and quick links.",
+        "actorOrNode": "User / Landing View"
       },
       {
         "step": "02",
-        "title": "Hardware Grid Browsing & Filtering",
-        "description": "User browses flagship product listings with hover-zoom micro-interactions and clicks an individual model card to view specifications.",
-        "actorOrNode": "Product Catalog Interface"
+        "title": "Browse Hardware Categories",
+        "description": "User navigates motherboards, GPUs, PC components, and laptops via sticky category navigation.",
+        "actorOrNode": "User / Product Catalog"
       },
       {
         "step": "03",
-        "title": "Detailed Specification & Image Carousel Inspection",
-        "description": "User examines hardware architecture, dimensions, thermal mechanisms, and cycles product renders via JavaScript carousel buttons.",
-        "actorOrNode": "Product Detail Page"
+        "title": "Inspect Detailed Specifications",
+        "description": "User reviews multi-angle hardware galleries, interactive image slideshows, and thermal engineering specs.",
+        "actorOrNode": "User / Detail Product Page"
       },
       {
         "step": "04",
-        "title": "Benchmark Discovery & Article Reading",
-        "description": "User navigates to the Explore hub to study in-depth benchmarks on Intel 12th-Gen CPUs and DDR5 PCIe 5.0 hardware analysis.",
-        "actorOrNode": "Explore Editorial Module"
+        "title": "Read Editorial Benchmarks",
+        "description": "User studies technical benchmarks and DIY PC building articles in the Explore portal.",
+        "actorOrNode": "User / Explore Articles"
       },
       {
         "step": "05",
-        "title": "Hardware Warranty Registration",
-        "description": "User inputs hardware type, serial number, and purchase region into the registration form to receive instant confirmation records.",
-        "actorOrNode": "PHP Registration Endpoint"
+        "title": "Register Purchased Product",
+        "description": "User enters product serial number, type, and purchase region into the warranty registration form.",
+        "actorOrNode": "User / Product Registration Form"
       }
     ]
   },
   "systemArchitecture": {
-    "summary": "The application implements a decoupled multi-page architecture separating semantic HTML5 page templates from styling layers and vanilla JavaScript utility modules, delivering zero-dependency client execution with seamless media rendering and responsive viewport adaptations across desktop and mobile devices.",
+    "summary": "Client-centric modular web architecture organizing presentation layers, DOM manipulation engines, and local data persistence into decoupled components to ensure rapid page delivery, cross-device responsiveness, and lightweight maintenance without complex framework overhead.",
     "layers": [
       {
-        "name": "Presentation & Semantic Markup Layer",
-        "role": "Defines accessible document structure, multimedia embedding, video background containers, and page hierarchy across 40+ views.",
+        "name": "Presentation Layer",
+        "role": "Renders responsive user interfaces and semantic document structures across all target viewports",
         "components": [
-          "index.html",
-          "mainpage/*.html",
-          "products/*.html",
-          "detail products/*/*.html",
-          "article/*.html"
+          "HTML5 Semantic Shell",
+          "CSS3 Flexbox Grid Engine",
+          "Media Query Breakpoints"
         ]
       },
       {
-        "name": "Design & Visual Styling Layer",
-        "role": "Manages responsive Flexbox/Grid systems, dark cyberpunk color palettes, neon glow states, and smooth CSS scrolling behaviors.",
+        "name": "Client Logic Layer",
+        "role": "Handles dynamic user interactions, viewport scrolling events, and real-time DOM updates",
         "components": [
-          "mainpage/index_style.css",
-          "mainpage/product_style.css",
-          "products/product kind_style.css",
-          "article/article_style.css"
+          "Slide Show Controller",
+          "Digital Clock Engine",
+          "Back to Top Observer"
         ]
       },
       {
-        "name": "Client-Side Interaction & Scripting Layer",
-        "role": "Executes lightweight DOM manipulation logic without third-party libraries for dynamic UI behaviors.",
+        "name": "Service & Integration Layer",
+        "role": "Manages multimedia streaming embeds, form submission processing, and external social link routing",
         "components": [
-          "script/Digital Clock.js",
-          "script/Slide Show.js",
-          "script/Back To Top.js"
-        ]
-      },
-      {
-        "name": "Server-Side Form Processing Layer",
-        "role": "Handles POST requests from the customer warranty registration form and generates structured verification summaries.",
-        "components": [
-          "mainpage/Product Registration.php"
+          "YouTube Iframe Player",
+          "PHP Registration Form Handler",
+          "Social Media Channels"
         ]
       }
     ]
   },
   "databaseDataFlow": {
     "type": "Database Schema / ERD",
-    "summary": "Client-side product navigation routes data requests while server-side PHP scripts handle warranty registration submissions.",
+    "summary": "Data model schema mapping client-side catalog structures and server-side warranty registration form payloads.",
     "entitiesOrPipelines": [
       {
-        "name": "Product Registration Record",
-        "type": "Form Entity",
+        "name": "ProductRegistration",
+        "type": "Form Submission Model",
         "fields": [
-          "prodtype (Product Type)",
-          "prodname (Product Name)",
-          "sernum (Serial Number)",
-          "purdate (Purchase Date)",
-          "purreg (Purchase Region)"
+          "prodtype",
+          "prodname",
+          "sernum",
+          "purdate",
+          "purreg"
         ]
       },
       {
-        "name": "Hardware Specification Schema",
-        "type": "Static Document Model",
+        "name": "HardwareCatalogItem",
+        "type": "Client Catalog Model",
         "fields": [
+          "productId",
+          "category",
           "modelName",
-          "chipsetOrGPU",
-          "memoryConfiguration",
-          "thermalCoolingSystem",
-          "accessoriesList"
+          "specs",
+          "galleryImages",
+          "warrantyYears"
+        ]
+      },
+      {
+        "name": "EditorialArticle",
+        "type": "Content Feed Model",
+        "fields": [
+          "articleId",
+          "title",
+          "publishDate",
+          "thumbnailUrl",
+          "contentBody"
         ]
       }
     ]
   },
   "technicalImplementation": [
     {
-      "category": "Zero-Dependency DOM Engine",
-      "title": "Native JavaScript Real-Time Clock & Carousel",
-      "description": "Implemented pure vanilla JavaScript routines using setInterval temporal polling with zero external framework overhead for digital clock synchronization and carousel slide indexing.",
-      "badge": "DOM Engine"
+      "category": "Interface Engineering",
+      "title": "Custom Interactive Multi-Angle Image Slider",
+      "description": "Implemented lightweight native JavaScript slide carousel (script/Slide Show.js) allowing gamers to view complex hardware components from various physical angles with indexed controls.",
+      "badge": "Interactive Slider"
     },
     {
-      "category": "Responsive Layout Architecture",
-      "title": "Adaptive Flexbox & Grid Styling System",
-      "description": "Structured CSS layouts leveraging native CSS Grid and Flexbox with media queries handling responsive viewport transitions across mobile, tablet, and wide desktop displays.",
-      "badge": "CSS Architecture"
+      "category": "Client-Side Scripting",
+      "title": "Live Real-Time Digital Clock & Timezone Sync",
+      "description": "Built dynamic interval-based time calculation engine (script/Digital Clock.js) utilizing prototype zero-padding functions and date arrays to render real-time calendar and clock widgets.",
+      "badge": "Real-Time Widget"
     },
     {
-      "category": "Rich Multimedia Integration",
-      "title": "Fullscreen Aspect-Ratio Video Background",
-      "description": "Configured fixed CSS viewport containers with aspect-ratio media query rules (16:9 min/max) to ensure crisp fullscreen looping video playback without content clipping.",
-      "badge": "Multimedia"
+      "category": "Responsive Layout",
+      "title": "Fluid Multi-Tier Navigation & Sticky Category Sidebars",
+      "description": "Crafted dual-tier navigation system combining top-level global headers with sticky categorized sidebar tables for instant anchor-based in-page jump navigation.",
+      "badge": "Responsive Navigation"
     },
     {
-      "category": "Server Form Handling",
-      "title": "PHP Warranty Data Ingestion Endpoint",
-      "description": "Implemented PHP superglobal POST processing with server-side validation to capture warranty registration attributes and render clean tabular confirmation displays.",
-      "badge": "PHP Backend"
+      "category": "Form Processing",
+      "title": "Server-Side Sanitized Warranty Registration",
+      "description": "Designed self-contained PHP form handler (mainpage/Product Registration.php) receiving POST requests to parse serial numbers and purchase regions with dynamic confirmation rendering.",
+      "badge": "Form Validation"
     }
   ],
   "primaryTechSpecs": {
     "programmingLanguage": "JavaScript",
     "framework": "Vanilla JS",
-    "database": "LocalStorage"
+    "database": "Local Storage"
   },
   "architectureQuality": {
     "badges": [
-      "Zero Dependency Client",
-      "Modular Multi Page",
-      "Responsive UI Layout",
-      "Semantic Accessibility"
+      "Responsive Web Design",
+      "Modular Component Layout",
+      "Interactive DOM Manipulation",
+      "Cross Browser Compatibility"
     ]
   }
 }

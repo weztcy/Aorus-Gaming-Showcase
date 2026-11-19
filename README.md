@@ -3,143 +3,152 @@
 ![Project Banner](screenshot/banner.webp)
 
 ![Project Type](https://img.shields.io/badge/Project_Type-Frontend-blue)
-![Primary Language](https://img.shields.io/badge/Primary_Language-HTML5-blue)
+![Primary Language](https://img.shields.io/badge/Primary_Language-JavaScript-yellow)
 ![Framework](https://img.shields.io/badge/Framework-Vanilla_JS-orange)
 ![Runtime / Platform](https://img.shields.io/badge/Runtime_%2F_Platform-Web_Browser-green)
 ![Package Manager](https://img.shields.io/badge/Package_Manager-npm-red)
 ![Build Tool](https://img.shields.io/badge/Build_Tool-Live_Server-purple)
-![Database](https://img.shields.io/badge/Database-LocalStorage-informational)
+![Database](https://img.shields.io/badge/Database-Local_Storage-informational)
 ![Project Status](https://img.shields.io/badge/Project_Status-Completed-success)
 ![Project Year](https://img.shields.io/badge/Project_Year-2021-blue)
 ![License](https://img.shields.io/badge/License-MIT-yellow)
 
 ## Project Overview
 
-Aorus Gaming Showcase is an interactive, multi-page client-side web application designed to showcase premium gaming hardware from the GIGABYTE AORUS ecosystem. The portal centralizes fragmented product technical specifications across motherboards, graphics cards, PC components, and gaming laptops into a unified, visually engaging presentation layer. By blending immersive ambient video backgrounds, rich multimedia integration, granular technical data sheets, and dedicated hardware benchmark publications, the application delivers a seamless digital catalog and discovery experience tailored for PC gamers, hardware enthusiasts, and system builders.
-
-## Screenshots / Preview
-
-### 1. Home Page & Interactive Hero Showcase
-![Home Page & Interactive Hero Showcase](screenshot/image1.webp)
-The primary landing view integrates a looping background video, an official AORUS showcase video player, a real-time JavaScript digital clock, and responsive navigation cards directing users to the four core hardware categories.
-
-### 2. Motherboards Product Catalog
-![Motherboards Product Catalog](screenshot/image2.webp)
-The dedicated motherboard catalog interface presents the flagship GIGABYTE AORUS Z690 lineup engineered for 12th-Gen Intel processors, featuring hover-zoom card micro-interactions for Z690 Xtreme Waterforce, Master, Ultra, Pro, and Elite AX models.
-
-### 3. Graphics Cards Lineup Showcase
-![Graphics Cards Lineup Showcase](screenshot/image3.webp)
-The graphics card portal exhibits the high-performance AORUS GeForce RTX 30 Series GPUs, displaying air-cooled and liquid-cooled Waterforce models within a responsive grid layout linked directly to in-depth technical specifications.
-
-### 4. Product Detail & Interactive Image Carousel
-![Product Detail & Interactive Image Carousel](screenshot/image4.webp)
-The comprehensive product detail page for the AORUS GeForce RTX 3090 XTREME WATERFORCE WB 24G incorporates a custom vanilla JavaScript slideshow carousel with Prev/Next controls, accessory inventories, and architecture clocks.
-
-### 5. Architectural Engineering & Cooling Innovations
-![Architectural Engineering & Cooling Innovations](screenshot/image5.webp)
-A specialized technical deep-dive view detailing the geometric design ethos and Waterforce liquid cooling architecture, highlighting microchannel spacing, micro-fin surface contact, and extreme thermal dissipation design.
-
-### 6. Hardware Benchmark & Technical Article
-![Hardware Benchmark & Technical Article](screenshot/image6.webp)
-An in-depth hardware engineering publication examining Intel 12th-Gen Alder Lake processors paired with the AORUS Z690 PRO motherboard, structured with multi-tier thermal analysis, benchmark comparisons, and embedded video demonstration.
-
-### 7. Explore & Community DIY Hub
-![Explore & Community DIY Hub](screenshot/image7.webp)
-The community content aggregation portal compiling DIY PC building walkthroughs, peripheral setup guides such as the Gaming Chair Beginners 101 guide, and global esports tournament event updates.
-
-### 8. Brand Identity & Vision Portal
-![Brand Identity & Vision Portal](screenshot/image8.webp)
-The brand heritage portal presenting the "Enter the Falcon" origin narrative, the "Team Up. Fight On." gaming motto, embedded cinematic video showcases, and AORUS's engineering commitment to competitive esports hardware.
+Aorus Gaming Showcase is an interactive, high-fidelity web platform engineered to present the premium lineup of GIGABYTE AORUS gaming hardware and PC gaming systems. Designed to solve the issue of fragmented and unengaging product specifications across traditional retail channels, the application unifies flagship hardware categories—including Z690 motherboards, GeForce RTX 30 Series graphics cards, liquid cooling solutions, and high-performance gaming laptops—into an immersive, cyberpunk-inspired digital experience. Through multi-angle component image carousels, comprehensive technical specifications, curated hardware benchmark reviews, and an integrated warranty product registration interface, the platform delivers an engaging visual journey tailored for hardware enthusiasts, PC builders, and competitive gamers.
 
 ## Key Features
 
-- **Categorized Multi-Page Product Catalog**: Comprehensive catalog navigation spanning Motherboards, Graphics Cards, PC Components, and Gaming Laptops across dedicated interfaces.
-- **Granular Hardware Detail Specifications**: Over 20+ individual product views with detailed technical datasheets, component dimensions, and bundled accessory lists.
-- **Interactive Multimedia & Ambient Video**: Fullscreen looping background video (`PUNK GAMING.mp4`) with aspect-ratio responsive handling and embedded YouTube multimedia players.
-- **Vanilla JavaScript Interactive Controls**: Real-time 12-hour/24-hour synchronized digital clock, automated and manual image slideshow carousel, and smooth back-to-top floating scroll controls.
-- **Hardware Benchmarks & Editorial Hub**: Curated technical article archive examining Intel 12th-Gen processor benchmarks on Z690 chipsets, PCIe 5.0 / DDR5 architectural transitions, and DIY setup guides.
-- **Responsive Multi-Viewport Layout**: Pure CSS flexbox and grid styling with smooth hover transitions, glow micro-interactions, and mobile viewport optimizations.
-- **Server-Side Product Registration Module**: Integrated PHP form processing endpoint for hardware warranty validation and purchase record submissions.
+- **Categorized Hardware Showcase**: Structured product galleries covering flagship motherboards, GeForce RTX 30 series graphics cards, liquid coolers, power supplies, and gaming laptops.
+- **Interactive Multi-Angle Gallery Slider**: Custom native JavaScript image slider allowing users to inspect gaming components from multiple angles with indexed controls.
+- **Real-Time Dynamic Clock**: Client-side date and time calculation engine displaying live synchronized time with zero-padded formatting.
+- **Sticky Category Navigation**: Fixed sidebar navigation facilitating quick jumps between hardware categories without losing scroll context.
+- **Explore Editorial & Benchmark Hub**: Curated technical editorial section featuring real-world Intel 12th-Gen Core processor benchmarks, DDR5/PCIe 5.0 architecture analysis, and DIY building guides.
+- **Product Warranty Registration Portal**: Form interface allowing gamers to submit product types, models, serial numbers, and purchase regions with dynamic confirmation feedback.
+- **Smooth Viewport Navigation**: Floating 'Back to Top' navigation button automatically triggered upon scroll threshold for seamless page traversal.
+- **Embedded Multimedia Streaming**: Native integration of promotional brand video reels and YouTube hardware demonstrations.
 
 ## Tech Stack
 
 | Category | Technology | Purpose |
 | --- | --- | --- |
-| Markup | HTML5 | Semantic structure and multimedia embedding across 40+ pages |
-| Styling | CSS3 | Responsive layouts, CSS Flexbox/Grid, keyframe animations, and dark cyberpunk aesthetic |
-| Client-Side Scripting | JavaScript (ES6) | Real-time digital clock, interactive carousel controls, and scroll behavior |
-| Server-Side Scripting | PHP | Product warranty and registration form submission handling |
-| Multimedia Assets | WebP / MP4 / PNG | Optimized WebP screenshots, ambient background videos, and official high-resolution brand assets |
-| Local Development | Live Server | Lightweight local development server with live browser reloading |
-| Version Control | Git / GitHub | Distributed source code management and repository hosting |
+| Markup | HTML5 | Semantic structure for product listings, multimedia containers, and navigation layouts |
+| Styling | CSS3 | Responsive Flexbox/Grid layouts, cyberpunk dark-theme aesthetics, and CSS animations |
+| Scripting | JavaScript (ES6) | Client-side DOM manipulation, interactive slideshow controller, and live clock engine |
+| Server Scripting | PHP | Form POST handling and dynamic submission confirmation for warranty registration |
+| Tooling | Live Server | Local development hot-reload server environment for synchronized browser testing |
+| Media Delivery | WebP / MP4 | High-efficiency compressed visual assets and background ambient video streams |
+
+## Screenshots / Preview
+
+### 1. Landing Page & Hero Section
+![Landing Page & Hero Section](screenshot/image1.webp)
+The homepage hero section introduces visitors to the AORUS gaming ecosystem, featuring an embedded official brand video reel, a live digital clock, and quick-access navigation cards to primary gaming gear categories.
+
+### 2. Motherboard Catalog & Sticky Category Navigation
+![Motherboard Catalog](screenshot/image2.webp)
+The motherboard catalog view showcases the full GIGABYTE AORUS Z690 gaming lineup, featuring a sticky sidebar for seamless category switching, responsive card layouts, and direct links to comprehensive specification sheets.
+
+### 3. Graphics Cards Lineup Showcase
+![Graphics Cards Showcase](screenshot/image3.webp)
+The dedicated graphics cards section highlights flagship GeForce RTX 30 Series GPUs, displaying retail packaging aesthetics, cooling configurations, and interactive hover transitions for PC enthusiasts.
+
+### 4. Product Detail View & Interactive Image Slider
+![Product Detail View](screenshot/image4.webp)
+The product detail view for the GeForce RTX 3090 XTREME WATERFORCE WB 24G provides an interactive client-side image slider, enabling users to view the hardware from multiple angles alongside key architectural specifications.
+
+### 5. Thermal Architecture & Waterforce Cooling Breakdown
+![Thermal Architecture](screenshot/image5.webp)
+An in-depth engineering breakdown section illustrating the advanced thermal dynamics of the Waterforce cooling system, detailing microchannel spacing and liquid heat dissipation designed for extreme overclocking stability.
+
+### 6. Hardware Benchmarks & Review Editorial
+![Hardware Benchmarks](screenshot/image6.webp)
+The editorial benchmark view presents comparative performance metrics of Intel 12th-Gen Alder Lake processors paired with AORUS Z690 motherboards across everyday computing, content creation, and high-frame-rate gaming.
+
+### 7. Explore Portal & Hardware Insights
+![Explore Portal](screenshot/image7.webp)
+The Explore hub curates community articles, DIY PC building guides, and gaming tips, giving gamers actionable advice on choosing gaming chairs, optimizing high-speed DDR5 memory, and configuring display interfaces.
+
+### 8. About AORUS Brand Heritage & Falcon Philosophy
+![About AORUS Brand](screenshot/image8.webp)
+The brand heritage view highlights the AORUS 'Enter the Falcon' identity, communicating corporate values, competitive gaming heritage, global event engagements, and embedded official media productions.
 
 ## Prerequisites
 
-Before running the project locally, ensure you have the following installed:
-
-- A modern web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari).
-- A local HTTP server utility (such as the VS Code Live Server extension, Python 3 `http.server`, or Node.js `serve`).
-- *(Optional)* PHP 7.4+ or 8.x (only required if testing the server-side form submission in `mainpage/Product Registration.php`).
+- Modern Web Browser (Google Chrome 90+, Mozilla Firefox 88+, Microsoft Edge 90+, or Safari 14+)
+- Local Web Server (VS Code Live Server extension, Python `http.server`, or Node.js `serve` / `http-server`)
+- Optional for PHP Form Processing: Local PHP runtime (PHP 7.4+ or 8.x) or web server bundle (XAMPP, WampServer, or Laragon)
 
 ## Installation & Setup
 
-1. Clone the repository from GitHub:
-
+1. Clone or download the repository to your local workspace:
    ```bash
-   git clone https://github.com/weztcy/Aorus-Gaming-Showcase.git
+   git clone https://github.com/weztcy/aorus-gaming-showcase.git
+   cd aorus-gaming-showcase
    ```
 
-2. Navigate into the project root directory:
-
+2. Verify project assets and structure:
    ```bash
-   cd "Aorus Gaming Showcase"
+   dir
    ```
 
-3. Launch a local web server to serve static assets and video files:
-
-   - **Using Python 3**:
-
-     ```bash
-     python -m http.server 8000
-     ```
-
-   - **Using Node.js (`npx serve`)**:
-
+3. Launch a local web development server:
+   - Using Node.js `npx serve`:
      ```bash
      npx serve .
      ```
-
-   - **Using VS Code Live Server**:
-     Right-click `index.html` in the file explorer and select **Open with Live Server**.
-
-4. *(Optional)* If executing the PHP registration module, run the built-in PHP development server:
-
-   ```bash
-   php -S localhost:8000
-   ```
+   - Or using Python built-in HTTP server:
+     ```bash
+     python -m http.server 8080
+     ```
+   - Or using PHP built-in server (to enable full form registration handling):
+     ```bash
+     php -S localhost:8000
+     ```
 
 ## Usage
 
-1. Open your web browser and navigate to the local server address (e.g., `http://localhost:8000`).
-2. Explore the home landing page to view the ambient video background, real-time clock, and quick navigation cards.
-3. Access the **Product** tab from the top navigation bar to browse hardware categories (Motherboards, Graphics Cards, PC Components, Gaming Laptops) or use side anchor links to jump directly to category sections.
-4. Click on any product item card to open its dedicated detail page, where you can cycle through product gallery angles using the interactive slideshow carousel.
-5. Browse the **Explore** section to read hardware benchmark analyses and DIY gaming tutorials.
-6. Test product registration by navigating to `mainpage/Product Registration.php`, completing the registration form fields, and submitting to view the echoed registration confirmation summary.
+Aorus Gaming Showcase can be accessed locally via any standard modern browser without requiring build compilation steps.
+
+1. Open your web browser and navigate to the local server address:
+   ```text
+   http://localhost:8000
+   ```
+2. Interact with the primary features:
+   - Browse the **Home** portal to observe live clock synchronization and brand multimedia.
+   - Click **Product** in the top navigation bar to explore hardware categories using the left sticky anchor menu.
+   - Select individual hardware cards (e.g. Z690 Aorus Xtreme Waterforce or RTX 3090 Xtreme) to open detail pages with multi-angle slider controls.
+   - Visit **Explore** to review benchmarking articles and hardware guides.
+   - Access **Product Registration** under `mainpage/Product Registration.php` to test warranty registration inputs and dynamic POST feedback.
+
+## Build & Deployment
+
+1. **Static Web Hosting (GitHub Pages, Vercel, Netlify)**:
+   Deploy the static frontend by pointing the web root to the project directory:
+   ```bash
+   npx vercel --prod
+   ```
+   For GitHub Pages, enable Pages deployment from the repository's `main` branch.
+
+2. **Full-Stack Deployment with PHP Support**:
+   Deploy the project folder to an Apache/Nginx web server with PHP enabled (such as cPanel, shared hosting, or Dockerized LAMP/LEMP container):
+   ```bash
+   docker run -d -p 80:80 -v "$PWD":/var/www/html php:8.1-apache
+   ```
 
 ## Contributing
 
-Contributions are welcome to expand hardware documentation, improve accessibility, or enhance responsive styling. To contribute:
+Contributions, issues, and feature suggestions are welcome. Please follow the standard contribution workflow:
 
 1. Fork the repository.
-2. Create a branch for the change (`git checkout -b feature/improvement`).
-3. Make and test the changes across multiple viewport sizes.
-4. Commit and push the branch (`git push origin feature/improvement`).
-5. Open a pull request with a clear explanation of changes made.
+2. Create a branch for the change (`git checkout -b feature/enhancement-name`).
+3. Make and test the changes across different browser viewports.
+4. Commit and push the branch (`git commit -m "Add responsive layout improvement"`).
+5. Open a pull request with a clear explanation of your improvements.
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the MIT.
 See the [LICENSE](LICENSE) file for details.
 
 ## Author & Contact
