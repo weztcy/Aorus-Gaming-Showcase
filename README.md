@@ -4,10 +4,10 @@
 
 ![Project Type](https://img.shields.io/badge/Project_Type-Frontend-blue)
 ![Primary Language](https://img.shields.io/badge/Primary_Language-JavaScript-blue)
-![Framework](https://img.shields.io/badge/Framework-Vanilla_Web-orange)
+![Framework](https://img.shields.io/badge/Framework-Vanilla_JS-orange)
 ![Runtime / Platform](https://img.shields.io/badge/Runtime_%2F_Platform-Web_Browser-green)
 ![Package Manager](https://img.shields.io/badge/Package_Manager-npm-red)
-![Build Tool](https://img.shields.io/badge/Build_Tool-HTML5_Native-purple)
+![Build Tool](https://img.shields.io/badge/Build_Tool-Live_Server-purple)
 ![Database](https://img.shields.io/badge/Database-Local_Storage-informational)
 ![Project Status](https://img.shields.io/badge/Project_Status-Completed-success)
 ![Project Year](https://img.shields.io/badge/Project_Year-2021-blue)
@@ -15,144 +15,142 @@
 
 ## Project Overview
 
-Aorus Gaming Showcase is an interactive, high-fidelity web showroom designed to highlight flagship gaming hardware and computer components from the Aorus product line. The platform addresses the fragmentation of enthusiast computer hardware specifications by consolidating motherboards, graphics cards, gaming laptops, and PC components into a unified, visually engaging web experience. Built with pure semantic web standards, the project demonstrates that rich multimedia interfaces—featuring looping background video, live telemetry clock widgets, multi-angle image carousels, and comprehensive technical benchmark documentation—can be delivered efficiently without the bundle overhead of external frontend frameworks.
+Aorus Gaming Showcase is an interactive, multi-page web application engineered to showcase high-performance AORUS gaming hardware, flagship components, and technical benchmarks. The project delivers an immersive digital showroom experience designed for PC gamers, hardware enthusiasts, and system builders by pairing rich multimedia presentation with comprehensive engineering specifications.
 
 ## Screenshots / Preview
 
-### 1. Interactive Homepage & Hero Experience
-![Interactive Homepage](screenshot/image1.webp)
-The main landing interface features a fullscreen background video reel, dynamic date and time telemetry driven by vanilla JavaScript, and immediate call-to-action pathways directing enthusiasts to hardware categories and curated benchmark articles.
+### 1. Home Page & Hero Showcase
+![Home Page & Hero Showcase](screenshot/image1.webp)
+The primary landing experience featuring dynamic video background integration, a real-time digital clock widget, quick navigation links, and an interactive gaming gears showcase.
 
-### 2. Product Category Catalog
-![Product Category Catalog](screenshot/image2.webp)
-A responsive overview catalog showcasing the four core Aorus hardware pillars—Motherboards, Graphics Cards, PC Components, and Gaming Laptops—styled with GPU-accelerated hover zoom transitions and clear navigational pathways.
+### 2. Product Catalog Directory
+![Product Catalog Directory](screenshot/image2.webp)
+The high-level product navigation hub categorizing hardware lines into Motherboards, Graphics Cards, PC Components, and Gaming Laptops with responsive zoom-on-hover interaction cards.
 
-### 3. Hardware Lineup & Sub-Product Directory
-![Hardware Lineup Directory](screenshot/image3.webp)
-A focused hardware listing layout that presents specific product series within a chosen component family, detailing individual model designations, technical badges, and direct links to comprehensive specification sheets.
+### 3. Hardware Category Lineup
+![Hardware Category Lineup](screenshot/image3.webp)
+Dedicated hardware category listing displaying flagship models with visual thumbnails, direct specification links, and quick-access product series navigation.
 
-### 4. Comprehensive Product Showcase & Gallery
-![Product Showcase Gallery](screenshot/image4.webp)
-The flagship product detail view incorporates a custom-built vanilla JavaScript slideshow carousel, enabling visitors to cycle through multi-angle high-resolution photographs and inspect industrial aesthetic design elements.
+### 4. Interactive Product Detail & Carousel
+![Interactive Product Detail & Carousel](screenshot/image4.webp)
+Detailed product showcase presenting an interactive JavaScript-powered image gallery carousel with previous and next controls alongside key performance highlights.
 
-### 5. Technical Specifications & Feature Matrix
-![Technical Specifications Matrix](screenshot/image5.webp)
-An in-depth specification view breaking down critical hardware metrics including thermal dissipation architecture, VRM power delivery phases, display output connectivity, and RGB Fusion 2.0 lighting capabilities in a readable tabular format.
+### 5. In-Depth Technical Specifications
+![In-Depth Technical Specifications](screenshot/image5.webp)
+Comprehensive technical specifications table breaking down processor socket support, memory architecture, expansion slots, thermal design, and connectivity standards.
 
-### 6. Technology Deep Dive & Benchmark Article
-![Technology Deep Dive Article](screenshot/image6.webp)
-An editorial article view providing deep architectural explanations, Intel 12th-Gen processor motherboard benchmark results, and high-speed PCIe 5.0 and DDR5 memory compatibility analyses for enthusiast builders.
+### 6. Hardware Benchmarks & Editorial Article
+![Hardware Benchmarks & Editorial Article](screenshot/image6.webp)
+Tech article reading layout showcasing real-world hardware benchmark data, performance comparisons, and deep architectural analysis for high-end components.
 
-### 7. Explore Hub & Editorial Resource Center
-![Explore Hub](screenshot/image7.webp)
-The community and editorial hub aggregates DIY computer assembly tutorials, gaming chair ergonomics guides, seasonal hardware buyer recommendations, and official gaming partner announcements.
+### 7. Explore #AORUS Knowledge Hub
+![Explore #AORUS Knowledge Hub](screenshot/image7.webp)
+Content discovery section featuring curated PC building inspiration, DIY tutorials, competitive gaming insights, and global community event highlights.
 
-### 8. Brand Heritage & Corporate Identity
-![Brand Heritage](screenshot/image8.webp)
-The corporate about page presents the core mission of the Aorus brand, detailing its falcon mascot iconography, competitive esports heritage, and design philosophy centered on empowering gamers to surpass their limits.
+### 8. Brand Philosophy & Corporate Profile
+![Brand Philosophy & Corporate Profile](screenshot/image8.webp)
+Brand overview page conveying AORUS gaming legacy, company vision, global service links, customer support resources, and unified social media channels.
 
 ## Key Features
 
-- **Cinematic Looping Video Hero**: Seamless MP4 video background integration delivering an immersive cyberpunk gaming aesthetic upon initial page load.
-- **Real-Time Telemetry Clock Widget**: Lightweight vanilla JavaScript digital clock tracking continuous system time, calendar day, month, and year with zero external dependencies.
-- **Zero-Dependency Slideshow Engine**: Custom DOM-based carousel supporting bidirectional cyclic image navigation for multi-perspective component inspection.
-- **Hierarchical Hardware Navigation**: Structured multi-level product hierarchy navigating from top-level categories down to granular component specification sheets.
-- **In-Depth Architectural Benchmarks**: Comprehensive editorial articles highlighting next-generation motherboard chipsets, PCIe 5.0 lanes, DDR5 memory, and thermal solutions.
-- **Product Warranty Registration Interface**: Interactive form with input validation and tabulated client confirmation receipt generation for registered devices.
-- **Fluid Viewport Scroll Controller**: Floating back-to-top interaction element with automated scroll threshold visibility detection and smooth scrolling behaviour.
-- **Responsive Multi-Tier Layout**: Pure CSS Flexbox and Grid layouts optimized for fluid rendering across mobile smartphones, tablets, and desktop displays.
+- **Immersive Video Hero**: High-energy looping background video showcasing futuristic gaming aesthetics.
+- **Real-Time Digital Clock**: Client-side JavaScript widget providing synchronized date, time, and day tracking.
+- **Categorized Hardware Showcase**: Structured directory covering Motherboards, Graphics Cards, Laptops, and PC Components.
+- **Interactive Multi-Image Carousel**: Custom slide-show module with responsive navigation controls for multi-angle product inspection.
+- **Comprehensive Tech Specs**: Exhaustive technical parameter tables covering chipset, memory clock, cooling, and form factors.
+- **Technical Articles & Benchmarks**: Rich editorial guides and hardware benchmarks covering Intel 12th-Gen performance, DDR5, and PCIe 5.0 architectures.
+- **Product Registration Module**: Form interface with PHP server-side form submission and tabular confirmation rendering.
+- **Smooth Navigation & Scroll Control**: Automated scroll-to-top floating action button with dynamic scroll threshold detection.
 
 ## Tech Stack
 
 | Category | Technology | Purpose |
 | --- | --- | --- |
-| Markup | HTML5 | Semantic structure, video background integration, and accessible document layout |
-| Styling | CSS3 | Custom typography, Flexbox/Grid layouts, gradient dividers, and GPU-accelerated hover animations |
-| Scripting | JavaScript (ES6) | DOM manipulation, carousel slider logic, real-time clock telemetry, and smooth scroll handling |
-| Server Scripting | PHP | Form submission handling, POST parameter sanitization, and tabular registration receipt generation |
-| Asset Pipeline | WebP / PNG | High-resolution compressed product photography, brand logos, and UI screenshot previews |
-| Video Delivery | MP4 / HTML5 Video | High-definition looping video background providing ambient motion graphics |
+| Markup | HTML5 | Semantic structure and multimedia embedding across showcase pages |
+| Styling | CSS3 | Responsive layouts, CSS grid/flexbox, hover transitions, and dark gaming theme |
+| Scripting | JavaScript (ES6) | Real-time digital clock, smooth scroll handlers, and carousel mechanics |
+| Server Processing | PHP | Form payload handling and tabular confirmation for product warranty registration |
+| Media Integration | YouTube Embed API | High-definition product video streaming and promotional showcases |
+| Asset Delivery | WebP / PNG / MP4 | High-fidelity hardware photography and looping background video media |
 
 ## Prerequisites
 
-To view or serve the Aorus Gaming Showcase locally, ensure the following minimal environment is available:
-
-- A modern standards-compliant web browser (Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari).
-- *(Optional for static viewing)* Any local static HTTP server such as Python 3 (`python -m http.server`) or Node.js (`npx serve`).
-- *(Optional for product registration form)* PHP 7.4+ or 8.x local development environment (e.g., PHP CLI Server, XAMPP, or Laragon) to execute `Product Registration.php`.
+- Modern Web Browser (Google Chrome, Mozilla Firefox, Microsoft Edge, or Safari)
+- Local HTTP Server (Python `http.server`, Node.js `http-server`, or VS Code Live Server extension)
+- PHP Runtime (optional, required only for testing `Product Registration.php` form submission)
 
 ## Installation & Setup
 
-1. Clone the repository to your local workstation:
+1. Clone the repository to your local environment:
    ```bash
    git clone https://github.com/weztcy/Aorus-Gaming-Showcase.git
-   ```
-
-2. Navigate into the project root directory:
-   ```bash
    cd "Aorus Gaming Showcase"
    ```
 
-3. Verify project files and media asset directory integrity:
+2. Start a local development HTTP server:
+   Using Python:
    ```bash
-   dir
+   python -m http.server 8000
+   ```
+   Or using Node.js:
+   ```bash
+   npx serve .
+   ```
+   Or using PHP built-in server (enables product registration form):
+   ```bash
+   php -S localhost:8000
+   ```
+
+3. Open your web browser and navigate to:
+   ```
+   http://localhost:8000
    ```
 
 ## Usage
 
-The application can be launched directly in a web browser for static exploration, or hosted via a local development server for full functionality including PHP form processing.
+The showcase can be browsed as a static web application directly or served through any local web server.
 
-1. **Option A: Static Exploration (Instant Browser Preview)**
-   Open `index.html` directly using your preferred browser:
-   ```bash
-   # On Windows
-   start index.html
-   ```
+1. **Explore Hardware Catalog**:
+   Access `index.html` to enter the main showcase. Navigate through the header menu to browse product categories or click on featured hardware cards to inspect specific lines.
 
-2. **Option B: Local HTTP Server (Recommended)**
-   Launch a lightweight HTTP server using Python:
-   ```bash
-   python -m http.server 8000
-   ```
-   Open your browser and navigate to `http://localhost:8000`.
+2. **Interact with Image Galleries**:
+   On product detail pages (such as `detail products/Gaming Laptops/AORUS 15 (Intel 12th Gen).html`), click **Prev** or **Next** buttons to cycle through hardware angles.
 
-3. **Option C: Full PHP Server (Enables Product Registration Form)**
-   Run the built-in PHP development server from the repository root:
-   ```bash
-   php -S localhost:8080
-   ```
-   Access the website at `http://localhost:8080` and test the registration workflow at `http://localhost:8080/mainpage/Product%20Registration.php`.
+3. **Read Articles & Benchmarks**:
+   Navigate to the **Explore** section to read hardware analysis, thermal benchmarks, and gaming setup recommendations.
+
+4. **Test Product Registration Form**:
+   When running via the PHP development server (`php -S localhost:8000`), navigate to `mainpage/Product Registration.php`, fill in the product parameters, and submit to verify registration output.
 
 ## Build & Deployment
 
-Because this project is built using native web standards, it does not require complex transpilation, bundling, or minification pipelines.
+As a client-centric web showcase, the application does not require a complex compilation pipeline and can be deployed to any static web hosting platform such as GitHub Pages, Vercel, or Netlify.
 
-1. **GitHub Pages Deployment**:
-   - Push the codebase to the `main` branch of your GitHub repository.
-   - In GitHub repository settings, navigate to **Pages**.
-   - Under **Build and deployment**, select `Deploy from a branch` and set the source branch to `main` with root `/ (root)`.
-   - Save the configuration; GitHub Pages will publish the static site automatically.
-
-2. **Production Web Hosting (Nginx / Apache)**:
-   - Copy all repository directories (`mainpage`, `products`, `detail products`, `article`, `gallery`, `screenshot`, `script`, `service`, `index.html`) to the web server root (e.g., `/var/www/html/` or `public_html/`).
-   - Ensure the web server is configured to serve standard MIME types for `.webp`, `.mp4`, `.js`, and `.css`.
+1. Ensure all asset paths and relative links are verified.
+2. Deploy directly via GitHub Pages:
+   - Push repository to GitHub.
+   - Go to **Repository Settings** > **Pages**.
+   - Under **Build and deployment**, select `Deploy from a branch` and choose the `main` branch root (`/`).
+   - Save changes; your showcase will be live at `https://<username>.github.io/<repo-name>/`.
 
 ## Contributing
 
-Contributions, feedback, and hardware profile updates are welcome. To contribute:
+Contributions, suggestions, and feedback are welcome to enhance the showcase.
 
 1. Fork the repository.
-2. Create a branch for the change:
+2. Create a feature branch:
    ```bash
-   git checkout -b feature/hardware-update
+   git checkout -b feature/showcase-enhancement
    ```
-3. Make and test the changes across multiple browser viewports.
-4. Commit and push the branch:
+3. Commit your changes:
    ```bash
-   git commit -m "feat: add next-generation hardware specifications"
-   git push origin feature/hardware-update
+   git commit -m "Add new hardware specification sheets"
    ```
-5. Open a pull request with a clear explanation of your modifications.
+4. Push to the branch:
+   ```bash
+   git push origin feature/showcase-enhancement
+   ```
+5. Open a Pull Request detailing your changes and visual improvements.
 
 ## License
 

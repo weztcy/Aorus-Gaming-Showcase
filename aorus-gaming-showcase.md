@@ -23,292 +23,260 @@
   "images": [
     "/images/projects/aorus_gaming_showcase/banner.webp"
   ],
-  "summary": "An immersive web showcase presenting Aorus flagship gaming hardware, interactive product galleries, digital clock telemetry, and tech articles.",
-  "projectDescription": "Aorus Gaming Showcase delivers a high-impact web portal for enthusiast hardware, integrating responsive product catalogs, interactive multi-angle slideshows, live digital clock telemetry, video backgrounds, and hardware architecture benchmarks built with standard web technologies.",
-  "architectureSummary": "Static client-side web application architected with modular HTML5 pages, scoped CSS3 style definitions, and vanilla JavaScript DOM manipulation engines.",
+  "summary": "Comprehensive gaming hardware showcase web application highlighting flagship AORUS components, interactive galleries, and technical specifications.",
+  "projectDescription": "A dedicated gaming hardware showcase web application engineered with modular HTML5, modern CSS3 styling, and vanilla JavaScript. Features dynamic video heroes, real-time DOM clock synchronization, interactive hardware carousels, and detailed product specifications for PC gaming enthusiasts.",
+  "architectureSummary": "Modular static web application with responsive CSS layouts, real-time DOM scripting, and interactive hardware showcase carousels.",
   "techStack": [
     "HTML5",
     "CSS3",
     "JavaScript",
     "PHP",
-    "DOM Manipulation",
-    "CSS Flexbox",
-    "CSS Grid",
-    "Responsive Web Design"
+    "YouTube Embed API",
+    "Web Storage API"
   ],
   "telemetryMatrix": {
-    "projectType": "Frontend Web Application",
-    "targetPlatform": "Modern Web Browsers",
-    "primaryDomain": "Gaming Hardware & Consumer Tech",
-    "architecturePipeline": "Static UI & DOM Component Pipeline",
+    "projectType": "Interactive Product Showcase",
+    "targetPlatform": "Cross-Browser Web Platforms",
+    "primaryDomain": "Gaming Hardware & E-Commerce",
+    "architecturePipeline": "Modular Client-Side Architecture",
     "testingAndAudit": "Passed",
     "projectStatus": "Completed",
     "projectYear": "2021"
   },
   "projectInfo": {
-    "projectType": "Gaming Showcase Website",
+    "projectType": "Static Web Showcase",
     "developmentStatus": "Completed",
     "developmentYear": "2021",
-    "platform": "Cross-Platform Web",
+    "platform": "Web Browser (Responsive)",
     "projectCategory": "Web Development"
   },
-  "projectBackground": "Conceived to bridge gaming enthusiasts with next-generation PC hardware, this platform organizes high-end components into an intuitive digital showroom. It delivers high-fidelity visuals, interactive media presentations, and technical literature without relying on heavy client runtime dependencies.",
+  "projectBackground": "Developed to provide gaming enthusiasts and PC builders with an immersive digital showroom for flagship AORUS hardware. The project bridges visual marketing and technical transparency through structured product catalogs, high-resolution media galleries, and comprehensive hardware specification breakdowns.",
   "problemStatements": [
     {
-      "title": "Fragmented Hardware Specifications",
-      "description": "Enthusiasts struggle to evaluate complex PC component ecosystems across scattered spec sheets without clear visual comparisons.",
+      "title": "Fragmented Hardware Specification Discovery",
+      "description": "Hardware enthusiasts and PC builders often face difficulty comparing nuanced component specifications across fragmented retail listings without deep technical context.",
       "issueCode": "ISSUE_01"
     },
     {
-      "title": "Sluggish Framework Overhead",
-      "description": "Modern client-side JavaScript frameworks often introduce bloated bundle sizes and hydration latency for media-heavy showcase websites.",
+      "title": "Static Non-Interactive Product Presentation",
+      "description": "Conventional product pages rely on flat single-angle photography that fails to convey premium hardware aesthetics, cooling architecture, and physical port layouts.",
       "issueCode": "ISSUE_02"
     },
     {
-      "title": "Static Non-Interactive Presentations",
-      "description": "Standard e-commerce catalogs offer rigid single-angle previews that fail to convey industrial design and thermal airflow architecture.",
+      "title": "Disconnected Editorial and Hardware Context",
+      "description": "System builders frequently struggle to find real-world thermal benchmarks and architecture explanations directly linked alongside corresponding component catalogs.",
       "issueCode": "ISSUE_03"
     }
   ],
   "projectObjectives": [
     {
-      "title": "High-Fidelity Multi-Angle Showcases",
-      "description": "Implement vanilla JavaScript slideshow engines enabling interactive inspection of GPUs, motherboards, and PC components.",
+      "title": "Unified Showcase Architecture",
+      "description": "Engineer a cohesive, multi-tier web platform organizing flagship motherboards, graphics cards, laptops, and components into dedicated catalog directories.",
       "targetTag": "TARGET_01"
     },
     {
-      "title": "Zero-Dependency Performance",
-      "description": "Achieve rapid first-contentful paint and smooth 60fps animations using pure semantic HTML5 and optimized CSS3 styling.",
+      "title": "Interactive Hardware Inspection",
+      "description": "Implement client-side JavaScript slideshow mechanics enabling smooth multi-angle product inspection and real-time interactive user feedback.",
       "targetTag": "TARGET_02"
     },
     {
-      "title": "Unified Product Discovery Ecosystem",
-      "description": "Consolidate hardware catalogs, benchmark articles, and warranty service registration into a structured navigation taxonomy.",
+      "title": "Integrated Knowledge & Warranty Portal",
+      "description": "Embed in-depth performance benchmark articles and provide an accessible warranty registration form interface for end users.",
       "targetTag": "TARGET_03"
     }
   ],
   "coreFeatures": [
     {
-      "title": "Cinematic Hero & Live Telemetry",
-      "description": "Fullscreen looping video backdrop combined with real-time digital clock telemetry and smooth back-to-top viewport navigation.",
-      "badge": "Homepage"
+      "title": "Cinematic Video Hero",
+      "description": "Looping high-definition video background paired with branding typography delivering an engaging gaming aesthetic on initial page load.",
+      "badge": "UI/UX"
     },
     {
-      "title": "Hierarchical Product Taxonomy",
-      "description": "Multi-tier browsing structure categorizing hardware across Gaming Laptops, Graphics Cards, Motherboards, and PC Components.",
-      "badge": "Catalog"
+      "title": "Live Digital Clock Widget",
+      "description": "Client-side JavaScript time engine rendering real-time synchronized date, time, and day information directly in the DOM.",
+      "badge": "Scripting"
     },
     {
-      "title": "Interactive Hardware Slideshow Gallery",
-      "description": "Custom DOM carousel engine allowing granular multi-angle exploration of flagship motherboards, graphics cards, and chassis.",
-      "badge": "Product Detail"
+      "title": "Multi-Tier Hardware Directory",
+      "description": "Structured catalog hierarchy organizing hardware lines into Motherboards, Graphics Cards, PC Components, and Gaming Laptops.",
+      "badge": "Navigation"
     },
     {
-      "title": "Editorial Benchmark & Tech Hub",
-      "description": "Rich technical articles analyzing Intel 12th-Gen architecture, DDR5 memory bandwidth, PCIe 5.0 lanes, and DIY gaming gear guides.",
+      "title": "Interactive Product Carousel",
+      "description": "Lightweight JavaScript slideshow module supporting bidirectional image cycling for multi-angle hardware examination.",
+      "badge": "Component"
+    },
+    {
+      "title": "Hardware Benchmark Reader",
+      "description": "Editorial article layouts presenting in-depth benchmark metrics for 12th-Gen processors, DDR5 memory, and PCIe 5.0 lanes.",
       "badge": "Editorial"
     },
     {
-      "title": "Product Warranty & Registration Form",
-      "description": "Interactive serial number registration interface featuring input sanitization and dynamic tabulated receipt generation.",
-      "badge": "Service"
+      "title": "Product Warranty Registration",
+      "description": "Interactive registration form handling customer hardware serial numbers and rendering instantaneous tabular confirmation.",
+      "badge": "Backend"
     }
   ],
   "interfaceShowcase": [
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image01.webp",
-      "caption": "Interactive homepage featuring video background hero, real-time digital clock telemetry, and quick-access gaming gear category links.",
-      "badge": "Homepage Hero"
+      "caption": "Hero landing page presenting dynamic background video playback, live system clock widget, and core hardware category entry points.",
+      "badge": "Landing View"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image02.webp",
-      "caption": "Product category catalog presenting motherboards, graphics cards, PC components, and gaming laptops with responsive zoom cards.",
+      "caption": "Product directory showcasing categorized gaming components with interactive zoom-on-hover cards for seamless category navigation.",
       "badge": "Catalog View"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image03.webp",
-      "caption": "Sub-product hardware directory categorizing flagship components with detailed model descriptions, pricing tiers, and direct view links.",
-      "badge": "Hardware Directory"
+      "caption": "Sub-category listing displaying flagship motherboard and GPU lineups with direct specification links and visual preview thumbnails.",
+      "badge": "Category View"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image04.webp",
-      "caption": "Product showcase detail view featuring an interactive multi-angle image slideshow gallery and high-resolution hardware imagery.",
-      "badge": "Gallery Showcase"
+      "caption": "Interactive hardware detail view featuring multi-angle product slideshow carousel with previous and next transition controls.",
+      "badge": "Product Detail"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image05.webp",
-      "caption": "Technical specifications matrix displaying detailed component dimensions, thermal architecture, power phases, and RGB Fusion 2.0 specs.",
-      "badge": "Specifications"
+      "caption": "Comprehensive technical specification sheet outlining socket architecture, power delivery stages, thermal design, and I/O options.",
+      "badge": "Specs View"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image06.webp",
-      "caption": "Curated technology editorial view providing deep-dive hardware benchmarks, PCIe 5.0 architecture analysis, and DIY setup guides.",
-      "badge": "Tech Article"
+      "caption": "Hardware benchmarking article presenting real-world gaming performance metrics, thermal data, and architecture analysis.",
+      "badge": "Article View"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image07.webp",
-      "caption": "Explore resource hub featuring community spotlights, PC build inspirations, gaming lifestyle articles, and hardware buying guides.",
+      "caption": "Explore knowledge hub aggregating community events, DIY custom PC building guides, and gaming optimization tips.",
       "badge": "Explore Hub"
     },
     {
       "imageUrl": "/images/projects/aorus_gaming_showcase/image08.webp",
-      "caption": "Corporate brand heritage page outlining AORUS design philosophy, team history, official mascot identity, and core mission values.",
-      "badge": "Brand Identity"
+      "caption": "Brand story interface detailing AORUS design philosophy, corporate milestones, global support channels, and social media integration.",
+      "badge": "About View"
     }
   ],
   "userFlow": {
-    "summary": "Users navigate seamlessly from the cinematic homepage hero through modular product directories and multi-angle slideshow galleries, explore in-depth benchmark articles, and complete product registrations with immediate client-rendered form feedback and table confirmation.",
+    "summary": "Guides users through an intuitive journey from the high-energy hero showcase into categorized hardware catalogs, interactive component image carousels, detailed specification matrices, benchmark editorial articles, and product warranty registration workflows.",
     "steps": [
       {
         "step": "01",
-        "title": "Landing & Discovery",
-        "description": "User enters the portal, greeted by live telemetry and featured gaming gear links.",
-        "actorOrNode": "User / Landing View"
+        "title": "Showcase Landing",
+        "description": "User enters the portal, experiencing the cinematic video background, real-time clock, and featured category cards.",
+        "actorOrNode": "User"
       },
       {
         "step": "02",
-        "title": "Category Browsing",
-        "description": "User filters through Motherboards, Graphics Cards, Laptops, or PC Components.",
-        "actorOrNode": "Product Directory"
+        "title": "Hardware Discovery",
+        "description": "User browses the structured catalog by selecting product lines such as Motherboards, Graphics Cards, or Laptops.",
+        "actorOrNode": "Component"
       },
       {
         "step": "03",
-        "title": "Hardware Inspection",
-        "description": "User inspects multi-angle views and detailed technical specifications tables.",
-        "actorOrNode": "Slideshow Engine"
+        "title": "Interactive Inspection",
+        "description": "User cycles through multi-angle photography using the carousel controls and inspects detailed technical specifications.",
+        "actorOrNode": "User / Component"
       },
       {
         "step": "04",
-        "title": "Article Exploration",
-        "description": "User reads hardware benchmark studies and architectural comparison deep dives.",
-        "actorOrNode": "Editorial Engine"
+        "title": "Benchmark Exploration",
+        "description": "User accesses the Explore knowledge base to study performance benchmarks and architecture articles.",
+        "actorOrNode": "User"
       },
       {
         "step": "05",
-        "title": "Product Registration",
-        "description": "User registers purchased hardware serial number and receives confirmation table.",
-        "actorOrNode": "Registration Handler"
+        "title": "Warranty Registration",
+        "description": "User completes the product registration form, submitting serial data and receiving a confirmed registration record.",
+        "actorOrNode": "User / API"
       }
     ]
   },
   "systemArchitecture": {
-    "summary": "The application adopts a decoupled static client architecture structured around semantic HTML5 views, modular CSS styling sheets, and dedicated vanilla JavaScript utility scripts handling telemetry clocks, dynamic viewports, and interactive galleries.",
+    "summary": "Structured around a decoupled client-side layout utilizing semantic HTML5 document trees, dedicated CSS styling sheets per module, and modular JavaScript utilities. Handles real-time DOM clock synchronization, smooth scroll mechanics, and multi-view product carousels with minimal runtime overhead.",
     "layers": [
       {
         "name": "Presentation Layer",
-        "role": "Renders responsive user interfaces and visual assets across device viewports",
-        "components": [
-          "Semantic HTML5 Markup",
-          "CSS3 Style Sheets",
-          "WebP Asset Pipeline"
-        ]
+        "role": "Renders semantic markup, responsive grid layouts, and cyberpunk-inspired aesthetic themes.",
+        "components": ["HTML5 Document Structure", "Module-Specific CSS Stylesheets", "Responsive Flexbox & Grid Containers"]
       },
       {
-        "name": "Interaction Engine",
-        "role": "Controls client-side DOM events, animations, and telemetry widgets",
-        "components": [
-          "Slideshow Engine",
-          "Digital Clock Telemetry",
-          "Smooth Viewport Controller"
-        ]
+        "name": "Client Scripting Layer",
+        "role": "Manages client-side interactivity, DOM mutations, and event-driven animations.",
+        "components": ["Digital Clock Handler", "Back-To-Top Scroll Controller", "Slide Show Image Carousel"]
       },
       {
-        "name": "Content & Media Repository",
-        "role": "Delivers rich multimedia assets, product imagery, and technical documentation",
-        "components": [
-          "Hardware Asset Library",
-          "Technical Benchmark Articles",
-          "Video Backgrounds"
-        ]
+        "name": "Media & Asset Delivery Layer",
+        "role": "Streams rich media assets and delivers optimized WebP hardware photography.",
+        "components": ["HTML5 Video Element", "YouTube Embedded Player", "WebP Image Asset Repository"]
       },
       {
-        "name": "Form & Data Processing",
-        "role": "Handles user registration input validation and dynamic confirmation rendering",
-        "components": [
-          "Registration Form Handler",
-          "Tabular Receipt Formatter"
-        ]
+        "name": "Server Processing Layer",
+        "role": "Processes registration form submissions and outputs formatted confirmation tables.",
+        "components": ["PHP POST Request Handler", "Input Sanitization", "HTML Dynamic Table Output"]
       }
     ]
   },
   "databaseDataFlow": {
-    "type": "Database Schema / ERD",
-    "summary": "Hierarchical data structure organizing products, technical specs, and registration records across client views.",
+    "type": "Client State & Data Flow",
+    "summary": "Data flow handles DOM event propagation, dynamic time calculation, carousel index tracking, and client-side form payload serialization for registration handling.",
     "entitiesOrPipelines": [
       {
-        "name": "ProductItem",
-        "type": "Hardware Entity",
-        "fields": [
-          "id",
-          "category",
-          "modelName",
-          "chipsetOrGpu",
-          "specifications",
-          "galleryImages"
-        ]
-      },
-      {
-        "name": "EditorialArticle",
-        "type": "Content Entity",
-        "fields": [
-          "articleId",
-          "title",
-          "publishedDate",
-          "categoryTag",
-          "summary",
-          "bodyHtml"
-        ]
-      },
-      {
-        "name": "ProductRegistrationRecord",
+        "name": "ProductRegistration",
         "type": "Form Entity",
-        "fields": [
-          "productType",
-          "productName",
-          "serialNumber",
-          "purchaseDate",
-          "purchaseRegion"
-        ]
+        "fields": ["prodtype", "prodname", "sernum", "purdate", "purreg"]
+      },
+      {
+        "name": "ClockState",
+        "type": "Runtime State",
+        "fields": ["dayname", "month", "daynum", "year", "hour", "minutes", "seconds", "period"]
+      },
+      {
+        "name": "CarouselState",
+        "type": "DOM State",
+        "fields": ["slideIndex", "currentElement", "totalSlides"]
       }
     ]
   },
   "technicalImplementation": [
     {
-      "category": "DOM Manipulation",
-      "title": "Vanilla JavaScript Slideshow Carousel",
-      "description": "Implemented zero-dependency cyclic index arithmetic with dynamic DOM display toggling for multi-view hardware inspection.",
-      "badge": "JavaScript Engine"
+      "category": "Real-Time DOM Scripting",
+      "title": "High-Frequency System Clock Synchronization",
+      "description": "Implements an optimized JavaScript clock engine utilizing window.setInterval with date element extraction and custom prototype zero-padding for stable, flicker-free DOM rendering.",
+      "badge": "DOM Engine"
     },
     {
-      "category": "Telemetry & Time",
-      "title": "Real-Time Digital Clock Synchronization",
-      "description": "Designed high-precision interval polling with integer padding prototypes to render continuous system time and date telemetry.",
-      "badge": "Telemetry"
+      "category": "Interactive UI Engineering",
+      "title": "Stateful Multi-Element Slideshow Carousel",
+      "description": "Constructed a zero-dependency image slider managing array indexing and boundary wrapping across DOM node collections to switch display states seamlessly.",
+      "badge": "Carousel"
     },
     {
-      "category": "Visual Styling",
-      "title": "Hardware Accelerated CSS Transitions",
-      "description": "Leveraged transform scale and box-shadow styling with GPU-accelerated compositing for fluid 60fps hover interactions.",
-      "badge": "CSS3 Transitions"
+      "category": "Scroll Optimization",
+      "title": "Viewport-Aware Dynamic Back-to-Top Control",
+      "description": "Listens to window scroll events with threshold detection at 250px vertical offset, toggling button visibility and invoking window.scrollTo smooth behavior.",
+      "badge": "Scroll Manager"
     },
     {
-      "category": "Responsive Layout",
-      "title": "Adaptive Multi-Breakpoint Media Queries",
-      "description": "Architected flexible container layouts adjusting column spans and typography across mobile, tablet, and desktop viewports.",
-      "badge": "Responsive Design"
+      "category": "Server Form Handling",
+      "title": "PHP POST Payload Serialization & Rendering",
+      "description": "Captures hardware registration data via PHP $_POST superglobal, performing conditional validation and rendering dynamic HTML response tables upon successful submission.",
+      "badge": "Form Handler"
     }
   ],
   "primaryTechSpecs": {
-    "programmingLanguage": "JavaScript",
-    "framework": "Vanilla Web",
+    "programmingLanguage": "JavaScript / HTML5",
+    "framework": "Vanilla JS",
     "database": "Local Storage"
   },
   "architectureQuality": {
     "badges": [
-      "Component Modularity",
-      "Responsive Fluid Layout",
-      "Interactive DOM Engine",
-      "Accessible Semantic Markup"
+      "Responsive UI Architecture",
+      "Modular Component Styling",
+      "Optimized Asset Pipeline",
+      "Native DOM Performance"
     ]
   }
 }
