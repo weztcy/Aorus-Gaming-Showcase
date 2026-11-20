@@ -13,16 +13,13 @@
   "code": "PRO-01 // WEB-01",
   "title": "Aorus Gaming Showcase",
   "category": "web-development",
-  "categoryLabel": "Web Development",
+  "categoryLabel": "Website",
   "year": "2021",
   "status": "Completed",
   "accentColor": "cyan",
   "repoUrl": "https://github.com/weztcy/aorus-gaming-showcase",
   "license": "MIT License",
-  "imageUrl": "/images/projects/aorus_gaming_showcase/banner.webp",
-  "images": [
-    "/images/projects/aorus_gaming_showcase/banner.webp"
-  ],
+  "banner": "/images/projects/aorus_gaming_showcase/banner.webp",
   "summary": "A comprehensive AORUS gaming showcase web platform highlighting high-performance hardware, interactive product catalogs, and benchmark insights.",
   "projectDescription": "An immersive web platform engineered to showcase AORUS premium gaming hardware. Built with semantic HTML5, modern CSS3 styling, and modular JavaScript, it delivers high-fidelity product catalogs, interactive multi-angle galleries, and rich gaming benchmark insights across all screen devices.",
   "architectureSummary": "Client-side modular component architecture featuring decoupled DOM controllers and responsive layout systems.",
